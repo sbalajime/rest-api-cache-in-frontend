@@ -36,3 +36,34 @@
     transform: rotate(360deg);
   }
 }
+
+.content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.card {
+ margin-top: 10px;
+}
+.food-name {
+  width: 90%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  bottom: 60px;
+  margin: auto;
+  font-size: 30px;
+  padding: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.food-img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
